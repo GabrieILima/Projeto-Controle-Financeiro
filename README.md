@@ -1,5 +1,64 @@
 # Financial Control System (Java)
 
+## 📌 Overview
+
+This project aims to develop a personal financial control system,
+allowing the registration of income, expenses, and investments, with support
+for recurring transactions (monthly, annual, semiannual, and one-time).
+
+The project is being developed with a focus on good domain modeling practices
+and a progressive approach to learning system development using Java.
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+- To develop a functional personal financial control system
+- To practice domain modeling (Domain-Driven Design)
+- To learn Java in a structured and conscious way
+- To separate business rules, application, and infrastructure
+- To progressively evolve the system (CLI → App → other interfaces)
+
+## 🧱 Architecture and Structure
+
+### Domain Layer
+
+The domain layer contains the core business rules of the system and is independent
+of user interfaces, databases, or frameworks.
+
+Main components:
+
+- Movimentacao: represents a financial obligation with value, type, due date, and recurrence
+- Conta: aggregate responsible for calculating the balance from transactions
+- TipoMovimentacao: defines whether a transaction is an income or an expense
+- TipoRecorrencia: defines how a transaction occurs over time
+
+## 🔁 Development Flow
+
+The system development follows the order below:
+
+1. Domain modeling and completion
+2. Creation of a CLI application for user interaction
+3. Evolution of the application layer
+4. Implementation of data persistence
+5. Possible evolution to a graphical or web interface
+
+## 🚧 Project Status
+
+Current project status:
+
+- [x] Domain modeling and implementation
+- [ ] CLI application
+- [ ] Data persistence
+- [ ] Graphical or web interface
+
+
+##-------------------------------------------------Em português---------------------------------------------------------
+
+
+
+# Financial Control System (Java)
+
 ## 📌 Visão Geral
 
   Este projeto tem como objetivo o desenvolvimento de um sistema de controle financeiro pessoal,
